@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+h1 {
+  font-family: 'Turret Road', cursive;
+  color: #c21010;
+  font-size: 80px;
+}
+.velocimetro {
+  margin-top: 40px;
+}

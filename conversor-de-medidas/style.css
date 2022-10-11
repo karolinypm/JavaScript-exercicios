@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+div {
+  margin-top: 120px;
+  width: 310px;
+}
+h1 {
+  color: aliceblue;
+  font-size: 50px;
+  text-transform: uppercase;
+}

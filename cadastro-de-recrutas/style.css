@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+.container {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+}
+h1 {
+  color: aliceblue;
+  font-size: 50px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.2rem;
+  background-image: linear-gradient(to bottom, #eb5353, #f9d923);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+h1::before {
+  content: '';
+  display: block;
+  margin-left: 100px;
+  width: 200px;
+  height: 5px;
+  background: #fbcb0a;
+  align-items: center;
+}
+h1::after {
+  content: 'after';
+  display: block;
+  margin: 10px 0 0 100px;
+  width: 200px;
+  height: 5px;
+  background: #fbcb0a;
+  align-items: center;
+}
